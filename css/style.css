@@ -1,0 +1,323 @@
+img.transparent {
+    filter: alpha(opacity=25);
+    opacity: .25;
+    border: 0px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+
+body { 
+ 
+    min-height: 100vh;
+
+}
+   
+
+
+#tagh3 {
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom: none;
+    color: #D81A5B;
+}
+
+#linha {
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+}
+
+.img_b1 {
+    max-width: 98%;
+    margin-top: 15px;
+    float: left;
+}
+
+.img_banner {
+    max-width: 15%;
+    border: 0px solid #ddd;
+  
+}
+
+.img_33 {
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+    
+}
+
+.img_55 {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px;
+    
+}
+
+.banner_links {
+    width: 48%;
+    height: auto;
+    float: left;
+}
+
+.banner_links2 {
+    width: 48%;
+    height: auto;
+    float: right;
+}
+
+.comofunciona1 {
+    width: 48%;
+    height: auto;
+}
+
+.comofunciona2 {
+    width: 48%;
+    height: auto;
+    float: right;
+}
+
+.titulo_msg {
+    font-family: open_sansbold;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.corpo_msg {
+    font-family: open_sansbold;
+}
+
+
+/* ==========================================================================
+CabeÃ§alho do portal
+========================================================================== */
+
+#header {
+    padding: 5px 0 0 0;
+    
+    color: #fefefe;
+}
+
+
+/* Menu de Acessibilidade
+========================================================================== */
+
+#accessibility a {
+    color: #dcecff;
+}
+
+#accessibility span {
+    background:
+        /*savepage-url=../img/bg-acess-key.gif*/
+        url() center center no-repeat;
+    color: #0a1857;
+}
+
+
+/* Titulo do portal
+========================================================================== */
+
+#portal-logo,
+#portal-title {
+    color: #fff !important;
+}
+
+
+/* Menu 
+========================================================================== */
+
+#portal-siteactions,
+#portal-language {
+    border-bottom: 1px dotted #6893cb;
+}
+
+#portal-siteactions a,
+#portal-siteactions a:ho,
+#portal-language a,
+#portal-language a:hover {
+    color: #dcecff !important;
+}
+
+
+/* Menu 
+========================================================================== */
+
+#sobre {
+    background: #0f4098;
+}
+
+#sobre a {
+    color: #fff;
+}
+
+#sobre .portalservicos-item a {
+    border-right: 1px solid #87a0cc;
+}
+
+
+/* FormulÃ¡rio de busca
+========================================================================== */
+
+#portal-searchbox {
+    border: 1px solid #CCCCCC;
+}
+
+
+/* ==========================================================================
+Sprinte Icons
+========================================================================== */
+
+
+/* icones de redes sociais */
+
+#social-icons a,
+
+/* central de conteudo */
+
+.item-central .link-videos,
+.item-central .link-audios,
+.item-central .link-infograficos,
+.item-central .link-publicacoes,
+.item-central .link-fotos,
+.item-central .link-aplicativos,
+
+/* icone do botÃ£o de busca */
+
+#header input.searchButton {
+    background-image:
+        /*savepage-url=../img/sprite.png*/
+        url();
+}
+
+
+/* icone do botÃ£o de relatar erros */
+
+#content .relatar-erros a {
+    background:
+        /*savepage-url=../img/icon-reportar-erros.png*/
+        url() no-repeat;
+}
+
+
+/* Summary view */
+
+#content .summary-view-icon [class*="icon"] {
+    background-image:
+        /*savepage-url=../img/summary-view-icons-sprite.png*/
+        url();
+}
+
+
+/* ==========================================================================
+Portles
+========================================================================== */
+
+
+/* Portlet de navegaÃ§Ã£o
+========================================================================== */
+
+#portal-column-one>.portletWrapper dl.portlet.first-item-nav a,
+#portal-column-one>.portletWrapper dl.portlet.first-item-nav a span {
+    color: #2c66ce !important;
+}
+
+.portlet-static-centrais-de-conteudos .portletHeader,
+.portletNavigationTree .portletHeader {
+    border-top: 4px solid #1659bf;
+    color: #1659bf;
+}
+
+.portletNavigationTree .portletHeader a {
+    color: #1659bf !important;
+}
+
+.navTreeLevel0>li.navTreeItemInPath,
+.navTreeLevel0>li.navTreeCurrentNode {
+    border-top: 2px solid #1659bf !important;
+    border-bottom: 2px solid #1659bf !important;
+}
+
+
+/* ==========================================================================
+Collective Cover
+========================================================================== */
+
+
+/* Tiles
+========================================================================== */
+
+.tile a {
+    color: #162937 !important;
+}
+
+
+/* ==========================================================================
+Footer
+========================================================================== */
+
+#footer {
+   
+    color: #fefefe;
+}
+
+#footer a {
+    color: #fff;
+}
+
+
+
+/* Doormat
+========================================================================== */
+
+#doormat-container {
+    background: #1659bf;
+}
+
+#doormat-container dl {
+    border-left: 1px dotted #fff;
+}
+
+#doormat-container dt {
+    color: #fff;
+}
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+
+/* Smartphone
+========================================================================== */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .menuTrigger {
+        background: #0e4097
+            /*savepage-url=../img/bg-menu-mobile.png*/
+            url() top right no-repeat;
+    }
+
+    .portlet-static-centrais-de-conteudos .portletHeader,
+    .portletNavigationTree .portletHeader {
+        background: #edeff1
+            /*savepage-url=../img/portlet-header.gif*/
+            url() no-repeat 96% center;
+    }
+
+    .portletNavigationTree .portletHeader.ativo {
+        background:
+            /*savepage-url=../img/portlet-header-expanded.gif*/
+            url() no-repeat 96% center;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #header #portal-searchbox .searchButton {
+        background:
+            /*savepage-url=../img/search-button-30px.png*/
+            url() no-repeat;
+    }
+}
+
+
+
+
